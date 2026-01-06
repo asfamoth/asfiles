@@ -11,8 +11,8 @@
 --336: #5fa0d2;
 --830: #4778bc;
 --469: url(https://8upload.com/image/cea72190a87a93a5/starter-blue-glitter-pack_pointer.png);
---594: -100px;
---842: -50px;
+--px594: -100px;
+--px842: -50px;
 --px352: 0px;
 --px920: 5px;
 --px104: 10px;
@@ -27,6 +27,7 @@
 --val619: 5%;
 --val876: 85%;
 }
+
 
 
 
