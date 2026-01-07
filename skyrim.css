@@ -1,1 +1,1 @@
-.dropdown-toggle:hover::after { content:">" !important; display:initial; margin:none !important; border:none !important;}
+.dropdown-toggle:hover::after { content:">" !important; display:inline-block !important; margin:none !important; border:none !important;}
