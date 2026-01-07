@@ -1,1 +1,1 @@
-.nav-link.dropdown-toggle:hover::after { content: url(https://i.ibb.co/hxS81rdQ/crystal-cursor.png) !important; }
+.nav-link.dropdown-toggle:hover::after { content: url("https://i.ibb.co/hxS81rdQ/crystal-cursor.png") !important; }
