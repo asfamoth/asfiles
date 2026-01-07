@@ -45,7 +45,7 @@
 --s842: 100vw;
 }
 
-center:has(#fadeImage) .mainlineblack:nth-child(4):not(.col-11 .mainlineblack)::before { content: "Welcome!" !important; color: transparent; font-family: var(--083); background-color: transparent !important; background-image: linear-gradient(0deg, white, var(--454)); background-clip: text; filter: drop-shadow(var(--px352) var(--px352) var(--px920) black); text-shadow: none !important; }
+#shout::after { content: "Palette made by Asfamoth #385785"}
 
 
 
