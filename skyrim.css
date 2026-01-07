@@ -1,1 +1,1 @@
-.dropdown-toggle:hover::after { content: :">"; display:initial;}
+.dropdown-toggle:hover::after { content: :">"; display:initial; margin:none !important; border:none !important;}
