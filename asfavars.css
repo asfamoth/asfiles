@@ -30,6 +30,7 @@
 --val042: 0.5;
 --val362: 1.5;
 --val324: 150deg;
+--val275: -10%;
 --val307: -5%;
 --val274: 2%;
 --val619: 5%;
@@ -46,6 +47,7 @@
 }
 
 #shout::after { content: "Palette made by Asfamoth #385785"}
+
 
 
 
