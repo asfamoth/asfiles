@@ -45,7 +45,8 @@
 --s842: 100vw;
 }
 
-font.headline::before { content: "Welcome" !important; }
+center:has(#fadeImage) .mainlineblack:nth-child(1)::before { content: "Welcome!" !important; }
+
 
 
 
