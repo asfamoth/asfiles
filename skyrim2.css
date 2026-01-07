@@ -1,2 +1,0 @@
-.dropdown-toggle::after { content: url(https://i.ibb.co/hxS81rdQ/crystal-cursor.png) !important; position: absolute; bottom: 0px; display:block !important; visibility: hidden; border-top:0px;}
-.dropdown-toggle:hover::after {visibility: visible;}
