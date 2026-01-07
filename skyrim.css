@@ -1,1 +1,1 @@
-.dropdown-toggle:hover::after { content: url(https://i.ibb.co/hxS81rdQ/crystal-cursor.png) !important; position: absolute; bottom: 20px; transition: outline-color 3s linear;}
+.dropdown-toggle:hover::after { content: url(https://i.ibb.co/hxS81rdQ/crystal-cursor.png) !important; position: absolute; bottom: 20px; display:block !important;}
