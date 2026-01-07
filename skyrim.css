@@ -1,1 +1,1 @@
-.dropdown-toggle:hover::after { content: ">" !important; }
+#navbarDropdownMenuLink:hover::after { content: ">" !important; }
