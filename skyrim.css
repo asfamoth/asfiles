@@ -1,2 +1,1 @@
-.nav-item.dropdown::after { content: url(https://i.ibb.co/hxS81rdQ/crystal-cursor.png) !important; position: absolute; bottom: 20px; opacity: 0;}
-.nav-item.dropdown:hover::after { opacity: 1;}
+.nav-item.dropdown:hover::after { content: url(https://i.ibb.co/hxS81rdQ/crystal-cursor.png) !important; position: absolute; bottom: 20px; transition: outline-color 0.01s linear;}
