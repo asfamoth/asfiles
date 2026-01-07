@@ -45,6 +45,7 @@
 --s842: 100vw;
 }
 
+font.headline::before { content: "Welcome" }
 
 
 
