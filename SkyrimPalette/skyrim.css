@@ -15,7 +15,7 @@
   width: 300px;
   clip-path: polygon(255px 0px, 265px 0px, 265px 45%, 295px 50%, 265px 55%, 260px 100%, 255px 100%, 260px 55%, 290px 50%, 260px 45%, 260px 0%);
 }
-.navbar-nav:has(.nav-item:focus)::after {
+.navbar-nav:focus-within::after {
   content: " ";
   background: rgba(255, 255, 255, 0.25);
   height: 100%;
