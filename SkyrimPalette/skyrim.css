@@ -1,2 +1,3 @@
 .dropdown-toggle::after { content: url(https://i.ibb.co/hxS81rdQ/crystal-cursor.png) !important; position: absolute; bottom: 0px; display:inline-block !important; visibility: hidden; border-top:0px; margin-left: -15px;}
 .dropdown-toggle:hover::after, .dropdown-toggle:focus::after {visibility: visible;}
+--cursor: url(./skyrim pointer indicator.png);
