@@ -1,6 +1,6 @@
 :root {
---cursor: url(https://i.ibb.co/B5z7W6Vy/skyrim-pointer-indicator-s.png);
+--cursor: url(https://i.ibb.co/v6r1FSzs/skyrim-pointer-indicator-s2.png);
 }
-.dropdown-toggle::after { content: url(https://i.ibb.co/B5z7W6Vy/skyrim-pointer-indicator-s.png) !important; position: absolute; bottom: 0px; display:inline-block !important; visibility: hidden; border-top:0px; margin-left: -15px;}
+.dropdown-toggle::after { content: url(https://i.ibb.co/v6r1FSzs/skyrim-pointer-indicator-s2.png) !important; position: absolute; filter:invert(1); bottom: 0px; display:inline-block !important; visibility: hidden; border-top:0px; margin-left: -15px;}
 .dropdown-toggle:hover::after, .dropdown-toggle:focus::after {visibility: visible;}
 
