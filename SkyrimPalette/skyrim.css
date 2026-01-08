@@ -13,7 +13,7 @@
   position: fixed;
   left: 50px;
   width: 300px;
-  clip-path: polygon(255px 0px, 265px 0px, 265px 45%, 295px 50%, 265px 55%, 260px 100%, 255px 100%, 260px 55%, 290px 50%, 260px 45%, 260px 0%);
+  clip-path: polygon(255px 0px, 265px 0px, 265px 46%, 295px 50%, 265px 54%, 260px 100%, 255px 100%, 260px 54%, 290px 50%, 260px 46%, 260px 0%);
 }
 .navbar-nav:focus-within::after {
   content: " ";
@@ -23,5 +23,5 @@
   position: fixed;
   left: 50px;
   width: 300px;
-  clip-path: polygon(0% 0%, 260px 0%, 260px 45%, 290px 50%, 260px 55%, 260px 100%, 0% 100%);
+  clip-path: polygon(0% 0%, 260px 0%, 260px 46%, 290px 50%, 260px 54%, 260px 100%, 0% 100%);
 }
