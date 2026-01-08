@@ -3,5 +3,5 @@
 }
 .dropdown-toggle::after { content: url(https://i.ibb.co/v6r1FSzs/skyrim-pointer-indicator-s2.png) !important; position: absolute; filter:invert(1) brightness(0.5); bottom: 0px; display:inline-block !important; visibility: hidden; border-top:0px; margin-left: -10px;}
 .dropdown-toggle:hover::after {visibility: visible;}
-.dropdown-toggle:focus::after {visibility: visible; filter: brightness(1);}
+.dropdown-toggle:focus::after {visibility: visible; filter: invert(1) brightness(1);}
 
