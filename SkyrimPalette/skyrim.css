@@ -5,19 +5,23 @@
 .dropdown-toggle:hover::after {visibility: visible;}
 .dropdown-toggle:focus::after {visibility: visible; filter: invert(1) brightness(1);}
 
-.navbar-nav::before {content: " ";
+.navbar-nav::before {
+  content: " ";
   background: gray;
   height: 100%;
   top: 0px;
   position: fixed;
   left: 50px;
   width: 300px;
-  clip-path: polygon(255px 0px, 265px 0px, 265px 45%, 295px 50%, 265px 55%, 260px 100%, 255px 100%, 260px 55%, 290px 50%, 260px 45%, 260px 0%);}
-.navbar-nav::after {content: " ";
+  clip-path: polygon(255px 0px, 265px 0px, 265px 45%, 295px 50%, 265px 55%, 260px 100%, 255px 100%, 260px 55%, 290px 50%, 260px 45%, 260px 0%);
+}
+.navbar-nav::after {
+  content: " ";
   background: rgba(255, 255, 255, 0.25);
   height: 100%;
   top: 0px;
   position: fixed;
   left: 50px;
   width: 300px;
-  clip-path: polygon(0% 0%, 260px 0%, 260px 45%, 290px 50%, 260px 55%, 260px 100%, 0% 100%);}
+  clip-path: polygon(0% 0%, 260px 0%, 260px 45%, 290px 50%, 260px 55%, 260px 100%, 0% 100%);
+}
