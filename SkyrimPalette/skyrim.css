@@ -15,7 +15,29 @@
   width: 300px;
   clip-path: polygon(255px 0px, 265px 0px, 265px 350px, 295px 380px, 265px 410px, 260px 5000px, 255px 5000px, 260px 410px, 290px 380px, 260px 350px, 260px 0px);
 }
-.navbar-nav:focus-within::after {
+/*.navbar-nav:focus-within::after {
+  content: " ";
+  background: rgba(255, 255, 255, 0.25);
+  height: 100%;
+  top: 0px;
+  position: fixed;
+  left: 50px;
+  width: 300px;
+  pointer-events: none;
+  clip-path: polygon(0px 0px, 260px 0px, 260px 5000px, 0px 5000px);
+}*/
+
+.navbar-nav:has(.nav-item:nth-child(4):hover)::before, .navbar-nav:has(.nav-item:nth-child(4):focus-within)::before {
+  content: " ";
+  background: gray;
+  height: 100%;
+  top: 0px;
+  position: fixed;
+  left: 50px;
+  width: 300px;
+  clip-path: polygon(255px 0px, 265px 0px, 265px 350px, 295px 380px, 265px 410px, 260px 5000px, 255px 5000px, 260px 410px, 290px 380px, 260px 350px, 260px 0px);
+}
+.navbar-nav:has(.nav-item:nth-child(4):focus-within)::after {
   content: " ";
   background: rgba(255, 255, 255, 0.25);
   height: 100%;
