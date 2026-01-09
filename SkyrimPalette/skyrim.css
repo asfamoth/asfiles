@@ -13,7 +13,7 @@
   position: fixed;
   left: 50px;
   width: 300px;
-  clip-path: polygon(255px 0px, 265px 0px, 265px 350px, 295px 380px, 265px 410px, 260px 5000px, 255px 5000px, 260px 410px, 290px 380px, 260px 350px, 260px 0px);
+  clip-path: polygon(255px 0px, 265px 0px, 265px 410px, 260px 5000px, 255px 5000px, 260px 350px, 260px 0px);
 }
 /*.navbar-nav:focus-within::after {
   content: " ";
