@@ -103,6 +103,24 @@
   position: absolute;
   right: 0px;
 }
-.gauge tr tr:has(img[src*=gauge6])::after {
-  content: "6";
-}
+
+.gauge tr tr:has(img[src*=gauge1])::after { content: "1"; }
+.gauge tr tr:has(img[src*=gauge2])::after { content: "2"; }
+.gauge tr tr:has(img[src*=gauge3])::after { content: "3"; }
+.gauge tr tr:has(img[src*=gauge4])::after { content: "4"; }
+.gauge tr tr:has(img[src*=gauge5])::after { content: "5"; }
+.gauge tr tr:has(img[src*=gauge6])::after { content: "6"; }
+.gauge tr tr:has(img[src*=gauge7])::after { content: "7"; }
+.gauge tr tr:has(img[src*=gauge8])::after { content: "8"; }
+.gauge tr tr:has(img[src*=gauge9])::after { content: "9"; }
+.gauge tr tr:has(img[src*=gauge10])::after { content: "10"; }
+.gauge tr tr:has(img[src*=gauge11])::after { content: "11"; }
+.gauge tr tr:has(img[src*=gauge12])::after { content: "12"; }
+.gauge tr tr:has(img[src*=gauge13])::after { content: "13"; }
+.gauge tr tr:has(img[src*=gauge14])::after { content: "14"; }
+.gauge tr tr:has(img[src*=gauge15])::after { content: "15"; }
+.gauge tr tr:has(img[src*=gauge16])::after { content: "16"; }
+.gauge tr tr:has(img[src*=gauge17])::after { content: "17"; }
+.gauge tr tr:has(img[src*=gauge18])::after { content: "18"; }
+.gauge tr tr:has(img[src*=gauge19])::after { content: "19"; }
+.gauge tr tr:has(img[src*=gauge20])::after { content: "20"; }
