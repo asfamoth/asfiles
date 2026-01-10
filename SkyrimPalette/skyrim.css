@@ -1,7 +1,7 @@
 :root {
 --cursor: url();
 }
-.dropdown-toggle::after { content: url(https://i.ibb.co/NdDqzJ28/skyrim-pointer-indicator-s3.png) !important; position: absolute; filter:invert(1) brightness(0.5); bottom: 0px; display:block !important; visibility: hidden; border-top:0px; margin-left: 200px;}
+.dropdown-toggle::after { content: url(https://i.ibb.co/NdDqzJ28/skyrim-pointer-indicator-s3.png) !important; position: absolute; filter:invert(1) brightness(0.5); bottom: 2px; display:block !important; visibility: hidden; border-top:0px; margin-left: 200px;}
 .dropdown-toggle:hover::after {visibility: visible;}
 .dropdown-toggle:focus::after {visibility: visible; filter: invert(1) brightness(1);}
 
