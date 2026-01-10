@@ -71,21 +71,21 @@
   clip-path: polygon(0px 0px, 260px 0px, 260px 350px, 290px 380px, 260px 410px, 260px 5000px, 0px 5000px);
 }
 
-.gauge tr:has(img[src*=gauge]):nth-child(1)::before {
+.gauge td:nth-child(1) tr:has(img[src*=gauge])::before {
   content: "Movement:"
 }
-.gauge tr:has(img[src*=gauge]):nth-child(2)::before {
+.gauge td:nth-child(2) tr:has(img[src*=gauge])::before {
   content: "Intelligence:"
 }
-.gauge tr:has(img[src*=gauge]):nth-child(3)::before {
+.gauge td:nth-child(3) tr:has(img[src*=gauge])::before {
   content: "Heart:"
 }
-.gauge tr:has(img[src*=gauge]):nth-child(4)::before {
+.gauge td:nth-child(4) tr:has(img[src*=gauge])::before {
   content: "Scope:"
 }
-.gauge tr:has(img[src*=gauge]):nth-child(5)::before {
+.gauge :nth-child(5) tr:has(img[src*=gauge])::before {
   content: "Speed:"
 }
-.gauge tr:has(img[src*=gauge]):nth-child(6)::before {
+.gauge td:nth-child(6) tr:has(img[src*=gauge])::before {
   content: "Strength:"
 }
