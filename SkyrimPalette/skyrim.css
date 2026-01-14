@@ -4,6 +4,8 @@
 
 table.tablebg.tableshadow::before, .secondary.tableshadow::before, div.tablebg.tableshadow::before, .bl2.br2::before, .dropdown-menu::before { backdrop-filter: blur(1px); }
 
+.modal .smalltextblack br::after { content: " || "; }
+
 .dropdown-toggle::after { 
   content: url(https://i.ibb.co/NdDqzJ28/skyrim-pointer-indicator-s3.png) !important; 
   position: absolute; 
