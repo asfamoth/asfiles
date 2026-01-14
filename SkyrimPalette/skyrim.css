@@ -2,7 +2,7 @@
 --cursor: url();
 }
 
-table.tablebg.tableshadow, .secondary.tableshadow, div.tablebg.tableshadow, .bl2.br2, .dropdown-menu { backdrop-filter: blur(1px); }
+table.tablebg.tableshadow::before, .secondary.tableshadow::before, div.tablebg.tableshadow::before, .bl2.br2::before, .dropdown-menu::before { backdrop-filter: blur(1px); }
 
 .dropdown-toggle::after { 
   content: url(https://i.ibb.co/NdDqzJ28/skyrim-pointer-indicator-s3.png) !important; 
