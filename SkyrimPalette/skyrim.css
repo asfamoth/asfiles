@@ -29,17 +29,6 @@ table.tablebg.tableshadow::before, .secondary.tableshadow::before, div.tablebg.t
   width: 300px;
   clip-path: polygon(255px 0px, 265px 0px, 265px 410px, 260px 5000px, 255px 5000px, 260px 350px, 260px 0px);
 }
-/*.navbar-nav:focus-within::after {
-  content: " ";
-  background: rgba(255, 255, 255, 0.25);
-  height: 100%;
-  top: 0px;
-  position: fixed;
-  left: 50px;
-  width: 300px;
-  pointer-events: none;
-  clip-path: polygon(0px 0px, 260px 0px, 260px 5000px, 0px 5000px);
-}*/
 
 .navbar-nav:has(.nav-item:nth-child(1):hover)::before, .navbar-nav:has(.nav-item:nth-child(1):focus-within)::before {
   content: " ";
@@ -127,6 +116,28 @@ table.tablebg.tableshadow::before, .secondary.tableshadow::before, div.tablebg.t
   width: 300px;
   pointer-events: none;
   clip-path: polygon(0px 0px, 260px 0px, 260px 350px, 290px 380px, 260px 410px, 260px 5000px, 0px 5000px);
+}
+
+.navbar-nav:has(.nav-item:nth-child(5):hover)::before, .navbar-nav:has(.nav-item:nth-child(5):focus-within)::before {
+  content: " ";
+  background: gray;
+  height: 100%;
+  top: 0px;
+  position: fixed;
+  left: 50px;
+  width: 300px;
+  clip-path: polygon(255px 0px, 265px 0px, 265px 430px, 295px 460px, 265px 490px, 260px 5000px, 255px 5000px, 260px 490px, 290px 3460px, 260px 430px, 260px 0px);
+}
+.navbar-nav:has(.nav-item:nth-child(5):focus-within)::after {
+  content: " ";
+  background: rgba(255, 255, 255, 0.25);
+  height: 100%;
+  top: 0px;
+  position: fixed;
+  left: 50px;
+  width: 300px;
+  pointer-events: none;
+  clip-path: polygon(0px 0px, 260px 0px, 260px 430px, 290px 460px, 260px 490px, 260px 5000px, 0px 5000px);
 }
 
 .gauge td:nth-child(1) tr:has(img[src*=gauge])::before {
