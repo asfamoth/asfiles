@@ -2,6 +2,8 @@
 --cursor: url();
 }
 
+  #shout::after { content: "Palette code and element graphics made by Asfamoth #385785. Background by Thornspine@DA."}
+
 table.tablebg.tableshadow::before, .secondary.tableshadow::before, div.tablebg.tableshadow::before, .bl2.br2::before, .dropdown-menu::before { backdrop-filter: blur(1px); }
 
 .modal .smalltextblack br::after { content: " || "; }
