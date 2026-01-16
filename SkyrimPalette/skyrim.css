@@ -189,22 +189,22 @@ table.tablebg.tableshadow::before, .secondary.tableshadow::before, div.tablebg.t
   clip-path: polygon(0px 0px, 260px 0px, 260px 590px, 290px 620px, 260px 650px, 260px 5000px, 0px 5000px);
 }
 
-.gauge td:nth-child(1) tr:has(img[src*=gauge])::before {
+.gauge td:nth-child(1) tr:has(img[src*=gauge])::before, .gaugeheight td:nth-child(2) tr:has(img[src*=gauge])::before {
   content: "Movement:"
 }
-.gauge td:nth-child(2) tr:has(img[src*=gauge])::before {
+.gauge td:nth-child(2) tr:has(img[src*=gauge])::before, .gaugeheight td:nth-child(3) tr:has(img[src*=gauge])::before {
   content: "Intelligence:"
 }
-.gauge td:nth-child(3) tr:has(img[src*=gauge])::before {
+.gauge td:nth-child(3) tr:has(img[src*=gauge])::before, .gaugeheight td:nth-child(4) tr:has(img[src*=gauge])::before {
   content: "Heart:"
 }
-.gauge td:nth-child(4) tr:has(img[src*=gauge])::before {
+.gauge td:nth-child(4) tr:has(img[src*=gauge])::before, .gaugeheight td:nth-child(5) tr:has(img[src*=gauge])::before {
   content: "Scope:"
 }
-.gauge :nth-child(5) tr:has(img[src*=gauge])::before {
+.gauge :nth-child(5) tr:has(img[src*=gauge])::before, .gaugeheight td:nth-child(6) tr:has(img[src*=gauge])::before {
   content: "Speed:"
 }
-.gauge td:nth-child(6) tr:has(img[src*=gauge])::before {
+.gauge td:nth-child(6) tr:has(img[src*=gauge])::before, .gaugeheight td:nth-child(7) tr:has(img[src*=gauge])::before {
   content: "Strength:"
 }
 
