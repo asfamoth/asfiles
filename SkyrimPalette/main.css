@@ -518,7 +518,7 @@ font-family:var(--headerfont) !important;  color: white; background-color: trans
 }
 }
 
-.heebuttonsmall, .anycolorbutton, #themsg input { font-family: var(--mainfont); font-size:12px; color:white; background:transparent; padding:0px; padding-left:5px; padding-right:5px; border:2px solid grey !important; border-radius:0px; 
+.heebuttonsmall, .anycolorbutton, #themsg input, .smalltag { font-family: var(--mainfont); font-size:12px; color:white; background:transparent; padding:0px; padding-left:5px; padding-right:5px; border:2px solid grey !important; border-radius:0px; 
 .heebuttonsmall { border: none !important; } }
 .heebuttonsmall a:visited { font-family:var(--mainfont); font-size:12px; color:#eaeaea; background-color: #7e81b2;   }
 .heebuttonsmall a:link { font-family:var(--mainfont); font-size:12px; color:#eaeaea; background-color: #7e81b2;  }
