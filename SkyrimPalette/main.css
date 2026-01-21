@@ -294,8 +294,8 @@ background-color: var(--lightbg) !important;
 	background-color:var(--lightbg);
 }
 
-.quatro {
-	background-color: rgba(var(--lightbgrgb), 0.5);
+.forumalt, .quatro {
+	background: transparent; box-shadow: 0px 2px 0px 0px gray;
 }
 
 #Stable div:nth-child(12) table tbody tr td table {
@@ -307,12 +307,8 @@ blockquote {
 	border-left: 3px solid #7e81b2;
 }
 
-.forumalt {
-	background-color: rgba(var(--darkbgrgb), 0.5);
-}
-
 form:has(.tablebg) .tablebg {
-background-color: rgba(255, 255, 255, 0.5);
+background: transparent;
 }
 
 .quatro .smalltextblack a:link {
@@ -540,7 +536,7 @@ height: 100%; width: 300px; border-radius: 0px !important; border: none !importa
 
 .main, .sales {
 border: none !important; box-shadow: none; background: none; border-top: 5px solid gray !important; border-radius:0px !important; 
-.smalltext, .bsmalltext, a { font-family: var(--mainfont) !important; color: white !important; }
+.smalltext, .bsmalltext, a { font-family: var(--mainfont) !important; color: white !important; font-size: 20px !important; }
 }
 
 div div:has(.w-100) { 
