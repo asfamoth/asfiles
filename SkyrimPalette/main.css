@@ -298,7 +298,7 @@ background-color: var(--lightbg) !important;
 	background-color:var(--lightbg);
 }
 
-.forumalt, .quatro {
+.forumalt, .quatro:not(.validmsg) {
 	background: transparent; box-shadow: 0px 2px 0px 0px gray;
 }
 
