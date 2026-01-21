@@ -401,7 +401,7 @@ textarea.iclass, input.iclass, select.iclass, span.select2-selection__rendered, 
 background: black; color: white !important; border-radius: 0px; border: 2px solid grey;
 }
 
-.tablebg.tableshadow, #High, #Hall, #Best, .matchscroll { .brownbox2, .secondary:not(.showlg):not(.set) {
+.tablebg.tableshadow, #High, #Hall, #Best, .matchscroll { .brownbox2, .secondary:not(.showlg):not(.set):not(.bl3) {
 height: 50px;
   width: 300px !important;
   margin: auto;
@@ -409,7 +409,9 @@ height: 50px;
   background-size: 100% 100%;
   background-color: transparent;
 border-radius: 0px; margin-top: -25px;
-} }
+}
+.bl3 { background-color: transparent; border-radius: 0px; }
+}
 
 .validmsg:not(:has(a)) {
 height: 50px; color: white; border: none;
