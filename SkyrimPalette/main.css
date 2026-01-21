@@ -90,6 +90,10 @@ cursor: var(--pointer), auto;
 display: none !important;
 }
 
+.icon.secondary {
+background: transparent; border: none;
+}
+
 .carousel-item.active {
 margin-top: 20px;
 }
