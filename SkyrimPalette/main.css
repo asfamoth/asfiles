@@ -615,8 +615,10 @@ font-size: 20px;
 font-size: 20px; font-family: var(--mainfont); color: red;
 }
 
-.text-vs  tr td {
-font-size: 20px }
+.text-vs {
+.secondary { background: transparent; }
+tr td { font-size: 20px }
+}
 
 .ptableheader {
 font-family: var(--mainfont); }
