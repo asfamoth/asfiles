@@ -524,6 +524,7 @@ font-family:var(--headerfont) !important;  color: white; background-color: trans
 .heebuttonsmall a:link { font-family:var(--mainfont); font-size:12px; color:#eaeaea; background-color: #7e81b2;  }
 .heebuttonsmall a:hover { font-family:var(--mainfont); font-size:12px; color:#9ba0e4; background-color: #7e81b2;  }
 
+.anycolorsmall.primary.whitefont { border-radius: 0px; background: grey; }
 
 .sidebar {
 	color:#f8f5da; font-family:var(--headerfont); font-size: 30px;
