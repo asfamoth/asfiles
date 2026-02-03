@@ -255,6 +255,12 @@ background-color: rgba(var(--darkbgrgb), 0.5); box-shadow: 0px 0px 10px var(--da
 margin-top: 40px;
 }
 
+.genericbox2.mainlineblack.tablebg:has(img[src*=explore]) {
+background: transparent; border: 5px solid grey; border-radius: 0px;
+.lightgreybox { background: transparent; box-shadow: none; }
+.genericbox.quatro { background: transparent; box-shadow: none; }
+}
+
 .equipdiv {
 .mainlineblack.secondary {
 border: none !important; background-color: rgba(var(--darkbgrgb), 0.5); box-shadow: 0px 0px 10px var(--darkbg);
