@@ -424,6 +424,7 @@ border-radius: 0px; margin-top: -25px;
 }
 .bl3, center:has([class*=news]) .bl2.br2 { background-color: transparent; border-radius: 0px; }
 }
+.matchscroll .brownbox2 { background-image: none !important; }
 
 .validmsg:not(:has(a)) {
 height: 50px; color: white; border: none;
@@ -520,7 +521,7 @@ ul.tabbernav li.tabberactive a:hover, ul.tabbernav li a:hover {
 background: transparent; border-radius: 0px; 
 }
 
-.heebutton, #manage .iclass, .veryblack.secondary, .secondary.set, .glow-pulse { font-family:var(--headerfont) !important;  color: white; background-color: black; padding:0px; padding-left:8px; padding-right:8px; border: 2px solid grey !important; border-radius:0px !important; text-decoration: none; 
+.heebutton, #manage .iclass, .veryblack.secondary, .secondary.set, .glow-pulse { font-family:var(--headerfont) !important;  color: white !important; background-color: black !important; padding:0px; padding-left:8px; padding-right:8px; border: 2px solid grey !important; border-radius:0px !important; text-decoration: none; 
 .heebutton {
 font-family:var(--headerfont) !important;  color: white; background-color: transparent; padding:0px; border: none !important; border-radius:0px !important;
 }
