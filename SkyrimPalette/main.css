@@ -298,8 +298,8 @@ background-color: var(--lightbg) !important;
 	background-color:var(--lightbg);
 }
 
-.forumalt, .quatro:not(.validmsg) {
-	background: transparent; box-shadow: 0px 2px 0px 0px gray;
+.forumalt, .quatro:not(.validmsg), #shout {
+	background: transparent; box-shadow: 0px 2px 0px 0px gray; border-radius: 0px !important;
 }
 
 #Stable div:nth-child(12) table tbody tr td table {
