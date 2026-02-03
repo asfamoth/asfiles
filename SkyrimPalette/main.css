@@ -102,11 +102,20 @@ margin-top: 20px;
 background: none !important;
 }
 
+.col-11:has(.storediv) div.secondary:has(.divheader2) {
+background: transparent; 
+}
+
+.storediv { 
+.genericbox2.secondary { background: transparent; border: 2px solid grey !important;
+.genericbox.quatro{ background: transparent; box-shadow: none; } 
+}
+}
+
 a[onclick*=showStore] {
-filter: drop-shadow(0px 0px 5px var(--darkbg)); 
 img {
-    clip-path: inset(5% 2% round 10px 10px 10px 10px);
-    filter: hue-rotate(150deg) saturate(0.5) brightness(1.5);
+    clip-path: inset(7 7% round 0px);
+    filter: saturate(0);
 }
 }
 
