@@ -105,6 +105,8 @@ background: transparent; border-radius: 0px !important; border: 5px solid grey;
 background: none !important;
 }
 
+img[src*=waterfall], img[src*=appleorchard] { border-radius: 15px; }
+
 .col-11:has(.storediv) div.secondary:has(.divheader2) {
 background: transparent; 
 }
