@@ -400,7 +400,7 @@ background-color:rgba(0, 0, 0, 0.25); border-radius: 0px !important; box-shadow:
 .tertiary { background: transparent; } 
 .secondary:not(.set) { margin-top: 15px; } }
 
-.secondary.tableshadow:has(.main) { padding-top: 150px !important; 
+.tableshadow:has(.main) { padding-top: 150px !important; 
 .main {
 position: absolute; margin-top: -145px; display: flex; flex-direction: row; width: 45%; max-width: 45% !important; background: transparent; justify-content: space-evenly; font-size: 20px !important;
 }
