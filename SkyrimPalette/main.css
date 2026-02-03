@@ -150,18 +150,20 @@ object-fit: cover;
 }
 
 td:has(table tbody tr td .expheightsm) {
-border-radius; 0px !important; -webkit-border-radius: 0px !important; border-bottom-left-radius: 10px !important;
+border-radius; 0px !important;
 }
 
 .mainlineblack td:has(.expheightsm) {
 .expheightsm {
 height: 300px !important;
 }
-background-image: linear-gradient(0deg, var(--lightbg), var(--mainbg)) !important;
+background-image: none; background: transparent !important;
 font {
-color: black;
+color: white;
 }
 }
+
+.upround[src*=explore] { border-radius: 0px !important; }
 
 center:has(#treat) center:has(.row.gx-0) img:not(#offspring img):not(#pedigree img), center:has(#removeteam) img:not(.img-fluid) {
 content: var(--applebannerurl); width: 100% !important;  filter: hue-rotate(225deg) opacity(0.75);
