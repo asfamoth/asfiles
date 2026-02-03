@@ -435,12 +435,14 @@ div.tablebg.tableshadow:not(:has(#adorn)), .bl2.br2 {
 background-color:rgba(0, 0, 0, 0.25); border-radius: 0px !important; border-image: url(https://i.ibb.co/nsGgGvs8/Skyrim-frame-full-sg.png) 50 round !important; border-width: 50px !important; border-color: transparent !important; box-shadow: 0px 0px 0px 5px rgba(0, 0, 0, 0.25); width:100% !important; clip-path: polygon(-5% -5%, 32px -5%, 32px 0%, calc(100% - 32px) 0%, calc(100% - 32px) -5%, 105% -5%, 105% 32px, 100% 32px, 100% calc(100% - 32px), 105% calc(100% - 32px), 105% 105%, calc(100% - 32px) 105%, calc(100% - 32px) 100%, 32px 100%, 32px 105%, -5% 105%, -5% calc(100% - 32px), 0% calc(100% - 32px), 0% 32px, -5% 32px);
 .divheader2 { color: white; font-family: var(--headerfont); } 
 .tertiary { background: transparent; } }
-.secondary { margin-top: 25px !important; }
+.secondary { margin-top: -25px; }
 .col-sm .tablebg.tableshadow { height: 100%; }
 
 textarea.iclass, input.iclass, select.iclass, span.select2-selection__rendered, span.select2-dropdown {
 background: black; color: white !important; border-radius: 0px; border: 2px solid grey;
 }
+
+div.tablebg:has(#adorn) .secondary { margin-top: 25px !important; }
 
 .tablebg.tableshadow:not(:has(.storediv)), #High, #Hall, #Best, .matchscroll { .brownbox2, .secondary:not(.showlg):not(.set):not(.bl3):not(center:has([class*=news]) .bl2.br2) {
 height: 50px;
