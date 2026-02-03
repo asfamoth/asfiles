@@ -443,7 +443,7 @@ textarea.iclass, input.iclass, select.iclass, span.select2-selection__rendered, 
 background: black; color: white !important; border-radius: 0px; border: 2px solid grey;
 }
 
-div.tablebg:has(#adorn) .secondary { margin-top: 25px !important; }
+div.tablebg:has(#adorn) .secondary { margin-top: 15px !important; }
 
 .tablebg.tableshadow:not(:has(.storediv)), #High, #Hall, #Best, .matchscroll { .brownbox2, .secondary:not(.showlg):not(.set):not(.bl3):not(center:has([class*=news]) .bl2.br2) {
 height: 50px;
