@@ -459,6 +459,10 @@ height: 50px; color: white; border: none;
 border-radius: 0px; margin-top: -25px;
 }
 
+.validmsg:has(a) {
+background: transparent; border: 2px solid grey; padding: 10px;
+}
+
 .mainlineblacksmall .secondary.tableshadow {
 background-color:rgba(var(--darkbgrgb), 0.5); box-shadow: 0px 0px 20px var(--darkbg);
 .quatro {
