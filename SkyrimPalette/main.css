@@ -339,7 +339,7 @@ background: transparent !important;
 	background: transparent; box-shadow: 0px 2px 0px 0px gray; border-radius: 0px !important;
 }
 
-blockquote { background: rgba(255, 255, 255, 0.25); }
+blockquote { background: rgba(255, 255, 255, 0.25) !important; }
 
 #Stable div:nth-child(12) table tbody tr td table {
 margin-bottom: 25px !important;
