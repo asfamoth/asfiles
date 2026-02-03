@@ -400,8 +400,8 @@ background-color:rgba(0, 0, 0, 0.25); border-radius: 0px !important; box-shadow:
 .tertiary { background: transparent; } 
 .secondary:not(.set) { margin-top: 15px; } }
 
-.tableshadow:has(.main):not(.thechat) { padding-top: 150px !important; 
-.main {
+.tableshadow:has(.main) { padding-top: 150px !important; 
+.main:not(.thechat .main) {
 position: absolute; margin-top: -145px; display: flex; flex-direction: row; width: 45%; max-width: 45% !important; background: transparent; justify-content: space-evenly; font-size: 20px !important;
 }
 span { font-size: 20px; }
