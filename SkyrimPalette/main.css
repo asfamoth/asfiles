@@ -117,7 +117,7 @@ background: transparent;
 
 a[onclick*=showStore] {
 img {
-    clip-path: inset(7 7% round 0px);
+    clip-path: inset(7% 7% round 0px);
     filter: saturate(0);
 }
 }
