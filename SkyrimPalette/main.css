@@ -140,14 +140,18 @@ background-color: transparent;
 }
 
 div:has(.upround) {
-border: none !important;
+border: none !important; border-radius: 0px !important;
 }
 div:has(#bottompicture) {
 height 100%;
 #bottompicture {
 object-fit: cover;
 }
+img[src*=gobutton], img[src*=nudge], img[src*=spur], img[src*=stick] {
+filter: saturate(0) contrast(1.5);
 }
+}
+
 
 td:has(table tbody tr td .expheightsm) {
 border-radius; 0px !important;
