@@ -126,6 +126,15 @@ font:has(.storediv) tr:not(.mainlineblack) img[src*=button] {
 filter: sepia(1) saturate(1.5);
 }
 
+.col-11:has(a[href*=shophome]) {
+.genericbox.secondary { 
+background: transparent !important; box-shadow: none !important; border-radius: 0px; border: 5px solid grey;
+tr td, tr table {
+background: transparent !important; box-shadow: none !important; border: 2px solid grey;
+}
+}
+}
+
 td:has(.statusbar2) {
 background-color: var(--mainbg);
 }
