@@ -602,7 +602,7 @@ div:nth-child(3) div:has(.showrefresh) {
 scrollbar-width: none; height: 50vh !important;
 }
 form {
-margin-left: 20%; margin-top: -5%; margin-bottom: -20px;
+margin-left: 20%; margin-top: -5%; margin-bottom: var(--px148);
 table {
 margin-left: -10%;
 }
