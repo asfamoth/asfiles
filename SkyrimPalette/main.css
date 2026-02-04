@@ -2,6 +2,7 @@
 
 
 @import url(https://asfamoth.github.io/asfiles/SkyrimPalette/skyrim.css);
+@import url(https://asfamoth.github.io/asfiles/asfavars.css);
 @import url(https://fonts.googleapis.com/css2?family=Metal+Mania);
 @import url(https://fonts.googleapis.com/css2?family=Iceland);
 @import url(https://fonts.googleapis.com/css2?family=Grenze);
@@ -63,7 +64,7 @@ cursor: var(--cursor), auto !important;
 }
 
 body center:has(.footercolor) {
-position: absolute; right: 100px; width: 50%; height: 0px; margin-top: -50px;
+position: absolute; right: 100px; width: 50%; height: 0px; margin-top: var(--px842);
 }
 
 .row.justify-content-center {
@@ -246,7 +247,7 @@ display: none;
 .col-md-6:has(img[src*=HEE_Logo]) { 
 width: 100vw; z-index: -1;
 img[src*=HEE_Logo] {
-opacity: 1 !important; max-width: 1000px !important; content: var(--headerimg); position: fixed; bottom: -100px; left: -50px;
+opacity: 1 !important; max-width: 1000px !important; content: var(--headerimg); position: fixed; bottom: -100px; left: var(--px842);
 }
 }
 
