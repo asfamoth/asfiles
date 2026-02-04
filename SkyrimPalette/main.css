@@ -33,7 +33,7 @@ font-display: swap; font-weight: normal; font-style: normal;}
 #shout center { margin-bottom: 25px; }
 
 img.fade.show[src*=banners]:hover {
-content: var(--credits) !important; border-radius: 20px;
+content: var(--credits) !important; border-radius: var(--px389);
 }
 
 html {
@@ -97,7 +97,7 @@ background: transparent; border: none;
 }
 
 .carousel-item.active {
-margin-top: 20px;
+margin-top: var(--px389);
 .tablebg {
 background: transparent; border-radius: var(--px352) !important; border: 5px solid grey;
 }
@@ -183,7 +183,7 @@ background-color: white; box-shadow: 0px 0px var(--px104) white; border-color: w
 
 #showbarns td td:has(img) { display: none; }
 
-.gauge tr:first-child:not(.gaugeheight tr) { display: flex; flex-direction: column; padding: 20px; tr { padding: 0px; }
+.gauge tr:first-child:not(.gaugeheight tr) { display: flex; flex-direction: column; padding: var(--px389); tr { padding: 0px; }
 tr.mainlineblack{ display: none; } table{ float:left; } }
 
 .gauge { border-radius: 0px !important; border: 5px solid grey !important; background: none !important; 
@@ -204,7 +204,7 @@ tr:last-child { display: none; }
     border: 5px solid grey; border-radius: 0px; 
 .mainline { display: inline-block; text-align: right; width:100%; 
 .mainlineblack { float:left; } }
-td:first-child { display:none; } td { padding: 20px; }
+td:first-child { display:none; } td { padding: var(--px389); }
 }
 
 #manage .tablebg.tableshadow {
@@ -414,9 +414,9 @@ background-color:rgba(0, 0, 0, 0.25); border-radius: 0px !important; box-shadow:
 
 .tableshadow:not(.primary):has(.main) { padding-top: 150px !important; 
 .main:not(.thechat .main) {
-position: absolute; margin-top: -145px; display: flex; flex-direction: row; width: 45%; max-width: 45% !important; background: transparent; justify-content: space-evenly; font-size: 20px !important;
+position: absolute; margin-top: -145px; display: flex; flex-direction: row; width: 45%; max-width: 45% !important; background: transparent; justify-content: space-evenly; font-size: var(--px389) !important;
 }
-span { font-size: 20px; }
+span { font-size: var(--px389); }
 }
 
 body:has(.modal.show) .col.p-0.m-0 { visibility: hidden; }
@@ -479,13 +479,13 @@ background: transparent; border: 2px solid grey; padding: var(--px104); border-r
 }
 
 .mainlineblacksmall .secondary.tableshadow {
-background-color:rgba(var(--darkbgrgb), 0.5); box-shadow: 0px 0px 20px var(--darkbg);
+background-color:rgba(var(--darkbgrgb), 0.5); box-shadow: 0px 0px var(--px389) var(--darkbg);
 .quatro {
-background-color:rgba(var(--lightbgrgb), 0.5); box-shadow: 0px 0px 20px var(--lightbg);
+background-color:rgba(var(--lightbgrgb), 0.5); box-shadow: 0px 0px var(--px389) var(--lightbg);
 }
 }
 .mainlineblacksmall .tertiary.tableshadow {
-background-color:rgba(var(--lightbgrgb), 0.5); box-shadow: 0px 0px 20px var(--lightbg);
+background-color:rgba(var(--lightbgrgb), 0.5); box-shadow: 0px 0px var(--px389) var(--lightbg);
 .quatro {
 background-color:rgba(0,0,0,0.0); 
 }
@@ -594,7 +594,7 @@ height: 100%; width: 300px; border-radius: 0px !important; border: none !importa
 
 .main, .sales {
 border: none !important; box-shadow: none; background: none; border-top: 5px solid gray !important; border-radius:0px !important; 
-.smalltext, .bsmalltext, a { font-family: var(--mainfont) !important; color: white !important; font-size: 20px !important; }
+.smalltext, .bsmalltext, a { font-family: var(--mainfont) !important; color: white !important; font-size: var(--px389) !important; }
 }
 
 div div:has(.w-100) { 
@@ -646,8 +646,8 @@ width: auto !important; box-shadow: none !important;
 	background-ground: #31356d; font-family: metal mania;
 }
  
-.mainline, .mainlineblack { font-family:var(--mainfont); color:white; font-size: 20px !important;
-font, a:hover, a:visited, a:link { font-family:var(--mainfont); color:white; font-size: 20px !important; }
+.mainline, .mainlineblack { font-family:var(--mainfont); color:white; font-size: var(--px389) !important;
+font, a:hover, a:visited, a:link { font-family:var(--mainfont); color:white; font-size: var(--px389) !important; }
 }
 
 .mainlineblacksmall { font-family:var(--mainfont); font-size:13px; color:white;
@@ -665,16 +665,16 @@ a:link, a:hover, a:visited { font-family:var(--mainfont);  color:grey; }
 }
 
 .mainline.text-vs {
-font-size: 20px;
+font-size: var(--px389);
 }
 
 .loss {
-font-size: 20px; font-family: var(--mainfont); color: red;
+font-size: var(--px389); font-family: var(--mainfont); color: red;
 }
 
 .text-vs {
 .secondary { background: transparent; }
-tr td { font-size: 20px }
+tr td { font-size: var(--px389) }
 }
 
 .ptableheader {
@@ -747,7 +747,7 @@ clip-path: polygon(0px 0px, 270px 0px, 270px 590px, 300px 620px, 270px 650px, 27
 }
 
 .nav-link.dropdown-toggle {
-    color: grey; text-shadow: 1px 1px 1px black; z-index: 50 !important; margin-top: 20px; font-family: inherit; font-size:var(--px627);}
+    color: grey; text-shadow: 1px 1px 1px black; z-index: 50 !important; margin-top: var(--px389); font-family: inherit; font-size:var(--px627);}
 
 #navbarDropdownMenuLink:focus { color:white; }
 .nav-item.dropdown:hover { ul {display: none; } }
@@ -800,7 +800,7 @@ font-family: var(--mainfont); color:white;
 box-shadow: none; align-self: stretch; text-align: right !important;
 font-family: var(--mainfont); color:white;
 }
-position: fixed; bottom: 0px; width: 101% !important; left:0px; z-index: 100;  border-bottom: none !important; justify-content: space-between !important; font-size: 20px; pointer-events: none; background-color:rgba(0, 0, 0, 0.5); border-top: 5px solid gray !important; padding: 20px;
+position: fixed; bottom: 0px; width: 101% !important; left:0px; z-index: 100;  border-bottom: none !important; justify-content: space-between !important; font-size: var(--px389); pointer-events: none; background-color:rgba(0, 0, 0, 0.5); border-top: 5px solid gray !important; padding: var(--px389);
 b { color: silver; font-family: var(--headerfont); font-weight: initial; }
 
 font, img {
