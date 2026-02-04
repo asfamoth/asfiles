@@ -819,9 +819,10 @@ display: block !important;
 }
 
 #poll-popup-container {
-top: 0px; bottom: none !important;
+top: 0px; bottom: none !important; pointer-events: none;
 .poll-popup { box-shadow: none; }
 .poll-header { display: none; }
 .poll-body { background: transparent; padding: 0px; }
 b { color: silver; font-family: var(--headerfont); font-weight: initial: }
+a[href*=mail2] { pointer-events: initial; }
 }
