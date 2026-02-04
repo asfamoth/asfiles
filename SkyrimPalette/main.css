@@ -41,7 +41,7 @@ scrollbar-width: none;
 }
 
 body:not(.container-lg) .genericbox3.tableshadow.primary {
-border-left: 5px solid grey !important; border-right: 5px solid grey !important; background-color: rgba(0, 0, 0, 0.5) !important; border-radius: var(--px352) !important; outline: 5px solid rgba(0, 0, 0, 0.5); margin-top: var(--px362); margin-left: 150px; margin-right: -150px; padding: var(--px352); height: calc(100% + 300px); min-height: 100vh;
+border-left: var(--px920) solid grey !important; border-right: var(--px920) solid grey !important; background-color: rgba(0, 0, 0, 0.5) !important; border-radius: var(--px352) !important; outline: var(--px920) solid rgba(0, 0, 0, 0.5); margin-top: var(--px362); margin-left: 150px; margin-right: -150px; padding: var(--px352); height: calc(100% + 300px); min-height: 100vh;
 }
 
 img.fade.show[src*=banners] {
@@ -79,7 +79,7 @@ body:has(.container-lg) { img[src*=Logo] { display: none; }
 .mainlineblack { color: silver; font-family: var(--headerfont); font-size: var(--px908) !important; font-weight: initial !important; }
 .mainline a { color: white !important; font-family: var(--mainfont) !important; }
 .genericbox3 {
-clip-path: polygon(-5% -5%, 32px -5%, 32px 0%, calc(100% - 32px) 0%, calc(100% - 32px) -5%, 105% -5%, 105% 32px, 100% 32px, 100% calc(100% - 32px), 105% calc(100% - 32px), 105% 105%, calc(100% - 32px) 105%, calc(100% - 32px) 100%, 32px 100%, 32px 105%, -5% 105%, -5% calc(100% - 32px), 0% calc(100% - 32px), 0% 32px, -5% 32px); border-image: url(https://i.ibb.co/nsGgGvs8/Skyrim-frame-full-sg.png) 50 round !important; border: var(--px627) solid transparent; background: rgba(0, 0, 0, 0.5); box-shadow: var(--px352) var(--px352) var(--px352) 5px rgba(0, 0, 0, 0.5); border-radius: var(--px352) !important;
+clip-path: polygon(-5% -5%, 32px -5%, 32px 0%, calc(100% - 32px) 0%, calc(100% - 32px) -5%, 105% -5%, 105% 32px, 100% 32px, 100% calc(100% - 32px), 105% calc(100% - 32px), 105% 105%, calc(100% - 32px) 105%, calc(100% - 32px) 100%, 32px 100%, 32px 105%, -5% 105%, -5% calc(100% - 32px), 0% calc(100% - 32px), 0% 32px, -5% 32px); border-image: url(https://i.ibb.co/nsGgGvs8/Skyrim-frame-full-sg.png) 50 round !important; border: var(--px627) solid transparent; background: rgba(0, 0, 0, 0.5); box-shadow: var(--px352) var(--px352) var(--px352) var(--px920) rgba(0, 0, 0, 0.5); border-radius: var(--px352) !important;
 }
 }
 }
@@ -99,7 +99,7 @@ background: transparent; border: none;
 .carousel-item.active {
 margin-top: var(--px389);
 .tablebg {
-background: transparent; border-radius: var(--px352) !important; border: 5px solid grey;
+background: transparent; border-radius: var(--px352) !important; border: var(--px920) solid grey;
 }
 }
 
@@ -132,7 +132,7 @@ filter: sepia(1) saturate(1.5);
 
 .col-11:has(a[href*=shophome]) {
 .genericbox.secondary { 
-background: transparent !important; box-shadow: none !important; border-radius: var(--px352); border: 5px solid grey;
+background: transparent !important; box-shadow: none !important; border-radius: var(--px352); border: var(--px920) solid grey;
 tr td, tr table {
 background: transparent !important; box-shadow: none !important; border: 2px solid grey;
 }
@@ -186,14 +186,14 @@ background-color: white; box-shadow: 0px 0px var(--px104) white; border-color: w
 .gauge tr:first-child:not(.gaugeheight tr) { display: flex; flex-direction: column; padding: var(--px389); tr { padding: 0px; }
 tr.mainlineblack{ display: none; } table{ float:left; } }
 
-.gauge { border-radius: 0px !important; border: 5px solid grey !important; background: none !important; 
+.gauge { border-radius: 0px !important; border: var(--px920) solid grey !important; background: none !important; 
 td:has(td), table { width: 100%; }
 tbody tbody { position: relative; }
 img { display:none; }
 }
 
 .gaugeheight tr:nth-child(2) {
-display: flex; flex-direction: column; padding: 5px;
+display: flex; flex-direction: column; padding: var(--px920);
 td { padding: 0px !important; 
 tr:last-child { display: none; }
 }
@@ -201,7 +201,7 @@ tr:last-child { display: none; }
 
 .genericbox3.tertiary:not(.horsediv table) {
     background-color: transparent !important;
-    border: 5px solid grey; border-radius: 0px; 
+    border: var(--px920) solid grey; border-radius: 0px; 
 .mainline { display: inline-block; text-align: right; width:100%; 
 .mainlineblack { float:left; } }
 td:first-child { display:none; } td { padding: var(--px389); }
@@ -287,7 +287,7 @@ margin-top: 40px;
 }
 
 .genericbox2.mainlineblack.tablebg:has(img[src*=explore]) {
-background: transparent; border: 5px solid grey; border-radius: 0px;
+background: transparent; border: var(--px920) solid grey; border-radius: 0px;
 .lightgreybox { background: transparent; box-shadow: none; }
 .genericbox.quatro { background: transparent; box-shadow: none; }
 }
@@ -297,7 +297,7 @@ background: transparent; border: 5px solid grey; border-radius: 0px;
 border: none !important; background-color: rgba(var(--darkbgrgb), 0.5); box-shadow: 0px 0px var(--px104) var(--darkbg);
 }
 .equipscroll {
-padding: 5px !important; border: none !important; background-color: rgba(var(--darkbgrgb), 0.5) !important; box-shadow: 0px 0px var(--px104) var(--darkbg);
+padding: var(--px920) !important; border: none !important; background-color: rgba(var(--darkbgrgb), 0.5) !important; box-shadow: 0px 0px var(--px104) var(--darkbg);
 form div {
 font-size: var(--px767) !important;
 }
@@ -315,7 +315,7 @@ height: 100% !important;
 .horsediv .mainline {
     background-color: rgba(255, 255, 255, 0.5) !important;
     border-radius: var(--px767) !important;
-    padding: 5px !important;
+    padding: var(--px920) !important;
     box-shadow: 0px 0px var(--px104) white !important; 
 }
 
@@ -362,7 +362,7 @@ font-family: var(--headerfont);
 
 .mainlineblack.secondary.tableshadow.bl2.br2 tbody {
 tr:nth-child(even):has(.img-fluid) {
-display: flex; flex-direction: column; align-items: center; border: 5px solid grey;
+display: flex; flex-direction: column; align-items: center; border: var(--px920) solid grey;
 td.quatro {
 padding: 0px !important; width: 100%; display: flex; flex-direction: row; align-items: center; justify-content: space-between; background: transparent !important;
 .img-fluid {
@@ -407,7 +407,7 @@ tbody:has(> tr.quatro) tr:nth-child(2) {
 .contentpad { background: transparent; }
 
 table.tablebg.tableshadow:not(.col-12 .active .tablebg), .secondary.tableshadow:not(:has(.tablinks)):not(.container-lg .secondary), div.tablebg.tableshadow:has(#adorn) {
-background-color:rgba(0, 0, 0, 0.25); border-radius: 0px !important; box-shadow: 0px 0px 0px 5px rgba(0, 0, 0, 0.25); width:100% !important; border: 5px solid grey !important;
+background-color:rgba(0, 0, 0, 0.25); border-radius: 0px !important; box-shadow: 0px 0px 0px var(--px920) rgba(0, 0, 0, 0.25); width:100% !important; border: var(--px920) solid grey !important;
 .divheader2 { color: white; font-family: var(--headerfont); } 
 .tertiary { background: transparent; } 
 .secondary:not(.set) { margin-top: var(--px767); } }
@@ -429,7 +429,7 @@ font br {display: none; } } }
 .show { transition: none !important; }
 td td { width: 100% !important; }
 .modal-content { 
-background-color:rgba(0, 0, 0, 0.25); border-radius: 0px !important; box-shadow: 0px 0px 0px 5px rgba(0, 0, 0, 0.25); width:50% !important; border: 5px solid grey !important; left: 400px;
+background-color:rgba(0, 0, 0, 0.25); border-radius: 0px !important; box-shadow: 0px 0px 0px var(--px920) rgba(0, 0, 0, 0.25); width:50% !important; border: var(--px920) solid grey !important; left: 400px;
 .divheader2 { color: white; font-family: var(--headerfont); } 
 .tertiary { background: transparent; }
 div[class*=iname] {
@@ -438,12 +438,12 @@ br, font { display: none; }
 } } }
 
 div.tablebg.tableshadow:not(:has(#adorn)):not(.genericbox3), .bl2.br2 {
-background-color:rgba(0, 0, 0, 0.25); border-radius: 0px !important; border-image: url(https://i.ibb.co/nsGgGvs8/Skyrim-frame-full-sg.png) 50 round !important; border-width: var(--px627) !important; border-color: transparent !important; box-shadow: 0px 0px 0px 5px rgba(0, 0, 0, 0.25); width:100% !important; clip-path: polygon(-5% -5%, 32px -5%, 32px 0%, calc(100% - 32px) 0%, calc(100% - 32px) -5%, 105% -5%, 105% 32px, 100% 32px, 100% calc(100% - 32px), 105% calc(100% - 32px), 105% 105%, calc(100% - 32px) 105%, calc(100% - 32px) 100%, 32px 100%, 32px 105%, -5% 105%, -5% calc(100% - 32px), 0% calc(100% - 32px), 0% 32px, -5% 32px);
+background-color:rgba(0, 0, 0, 0.25); border-radius: 0px !important; border-image: url(https://i.ibb.co/nsGgGvs8/Skyrim-frame-full-sg.png) 50 round !important; border-width: var(--px627) !important; border-color: transparent !important; box-shadow: 0px 0px 0px var(--px920) rgba(0, 0, 0, 0.25); width:100% !important; clip-path: polygon(-5% -5%, 32px -5%, 32px 0%, calc(100% - 32px) 0%, calc(100% - 32px) -5%, 105% -5%, 105% 32px, 100% 32px, 100% calc(100% - 32px), 105% calc(100% - 32px), 105% 105%, calc(100% - 32px) 105%, calc(100% - 32px) 100%, 32px 100%, 32px 105%, -5% 105%, -5% calc(100% - 32px), 0% calc(100% - 32px), 0% 32px, -5% 32px);
 .divheader2 { color: white; font-family: var(--headerfont); } 
 .tertiary { background: transparent; } }
 .secondary:not(.bl2.br2) { margin-top: var(--px362); }
 .col-sm .tablebg.tableshadow { height: 100%; }
-div.tablebg.genericbox3.tableshadow { background: transparent; border: 5px solid grey; border-radius: 0px; }
+div.tablebg.genericbox3.tableshadow { background: transparent; border: var(--px920) solid grey; border-radius: 0px; }
 
 textarea.iclass, input.iclass, select.iclass, span.select2-selection__rendered, span.select2-dropdown {
 background: black; color: white !important; border-radius: 0px; border: 2px solid grey;
@@ -551,7 +551,7 @@ ul.tabbernav li a {
 }
 
 .tabberlive .tabbertab {
- 	background-color: transparent; border: 5px solid grey; border-radius: 0px;
+ 	background-color: transparent; border: var(--px920) solid grey; border-radius: 0px;
 a { color: white; }
  }
 
@@ -569,7 +569,7 @@ font-family:var(--headerfont) !important;  color: white; background-color: trans
 }
 }
 
-.heebuttonsmall, .anycolorbutton, #themsg input, .smalltag { font-family: var(--mainfont); font-size:12px; color:white; background:transparent; padding:0px; padding-left:5px; padding-right:5px; border:2px solid grey !important; border-radius:0px; 
+.heebuttonsmall, .anycolorbutton, #themsg input, .smalltag { font-family: var(--mainfont); font-size:12px; color:white; background:transparent; padding:0px; padding-left:var(--px920); padding-right:var(--px920); border:2px solid grey !important; border-radius:0px; 
 .heebuttonsmall { border: none !important; } }
 .heebuttonsmall a:visited { font-family:var(--mainfont); font-size:12px; color:#eaeaea; background-color: #7e81b2;   }
 .heebuttonsmall a:link { font-family:var(--mainfont); font-size:12px; color:#eaeaea; background-color: #7e81b2;  }
@@ -593,7 +593,7 @@ body:has(.navbar-nav:focus-within) .thechat { display:none !important; }
 height: 100%; width: 300px; border-radius: 0px !important; border: none !important; position: fixed !important; left: 400px; top: 0px;
 
 .main, .sales {
-border: none !important; box-shadow: none; background: none; border-top: 5px solid gray !important; border-radius:0px !important; 
+border: none !important; box-shadow: none; background: none; border-top: var(--px920) solid gray !important; border-radius:0px !important; 
 .smalltext, .bsmalltext, a { font-family: var(--mainfont) !important; color: white !important; font-size: var(--px389) !important; }
 }
 
@@ -610,7 +610,7 @@ margin-left: -10%;
 }
 }
 .primary {
-border-radius: 0px; background-color: rgba(0, 0, 0, 0.5); height: 105%; border-right: 5px solid gray; border-left: 5px solid gray; outline: 5px solid rgba(0, 0, 0, 0.5);
+border-radius: 0px; background-color: rgba(0, 0, 0, 0.5); height: 105%; border-right: var(--px920) solid gray; border-left: var(--px920) solid gray; outline: var(--px920) solid rgba(0, 0, 0, 0.5);
 }
 div img {
 width: 0px !important; 
@@ -713,8 +713,8 @@ font-family: var(--mainfont); }
 
 
 .navbar-nav {
-	font-family:var(--headerfont) !important; background-color:rgba(0, 0, 0, 0.5); position: fixed; top:0; left:var(--px627); z-index: 50; flex-direction: column !important; width: 300px !important; justify-content: start !important; height: 100%; padding-right: var(--px909); padding-top: var(--px909); padding-left: var(--px104); clip-path: polygon(-10px 0px, 270px 0px, 270px 5000px, 305px 5000px, 310px 5000px, 310px 0px, 660px 0px, 660px 5000px, 0px 5000px); box-shadow: 0px 0px 0px 5px rgba(0, 0, 0, 0.25);
-  border-left: 5px solid gray;
+	font-family:var(--headerfont) !important; background-color:rgba(0, 0, 0, 0.5); position: fixed; top:0; left:var(--px627); z-index: 50; flex-direction: column !important; width: 300px !important; justify-content: start !important; height: 100%; padding-right: var(--px909); padding-top: var(--px909); padding-left: var(--px104); clip-path: polygon(-10px 0px, 270px 0px, 270px 5000px, 305px 5000px, 310px 5000px, 310px 0px, 660px 0px, 660px 5000px, 0px 5000px); box-shadow: 0px 0px 0px var(--px920) rgba(0, 0, 0, 0.25);
+  border-left: var(--px920) solid gray;
 }
 
 
@@ -756,7 +756,7 @@ clip-path: polygon(0px 0px, 270px 0px, 270px 590px, 300px 620px, 270px 650px, 27
 .dropdown-item {
     font-family: var(--headerfont) !important;
     font-size: var(--px908);
-margin-top: 5px;
+margin-top: var(--px920);
 color: grey;
 } 
 
@@ -783,9 +783,9 @@ top: 0px;
   font-family: var(--headerfont) !important;
   background-color: rgba(0, 0, 0, 0.5);
   z-index: 50;
-  border-right: 5px solid gray;
-  border-left: 5px solid gray;
-  outline: 5px solid rgba(0, 0, 0, 0.5);
+  border-right: var(--px920) solid gray;
+  border-left: var(--px920) solid gray;
+  outline: var(--px920) solid rgba(0, 0, 0, 0.5);
   padding-top: var(--px909);
   padding-left: var(--px104);
 }
@@ -800,7 +800,7 @@ font-family: var(--mainfont); color:white;
 box-shadow: none; align-self: stretch; text-align: right !important;
 font-family: var(--mainfont); color:white;
 }
-position: fixed; bottom: 0px; width: 101% !important; left:0px; z-index: 100;  border-bottom: none !important; justify-content: space-between !important; font-size: var(--px389); pointer-events: none; background-color:rgba(0, 0, 0, 0.5); border-top: 5px solid gray !important; padding: var(--px389);
+position: fixed; bottom: 0px; width: 101% !important; left:0px; z-index: 100;  border-bottom: none !important; justify-content: space-between !important; font-size: var(--px389); pointer-events: none; background-color:rgba(0, 0, 0, 0.5); border-top: var(--px920) solid gray !important; padding: var(--px389);
 b { color: silver; font-family: var(--headerfont); font-weight: initial; }
 
 font, img {
