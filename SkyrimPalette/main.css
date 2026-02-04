@@ -107,7 +107,7 @@ background: transparent; border-radius: var(--px352) !important; border: 5px sol
 background: none !important;
 }
 
-img[src*=waterfall], img[src*=appleorchard] { border-radius: 15px; }
+img[src*=waterfall], img[src*=appleorchard] { border-radius: var(--px767); }
 
 .col-11:has(.storediv) div.secondary:has(.divheader2) {
 background: transparent; 
@@ -299,7 +299,7 @@ border: none !important; background-color: rgba(var(--darkbgrgb), 0.5); box-shad
 .equipscroll {
 padding: 5px !important; border: none !important; background-color: rgba(var(--darkbgrgb), 0.5) !important; box-shadow: 0px 0px var(--px104) var(--darkbg);
 form div {
-font-size: 15px !important;
+font-size: var(--px767) !important;
 }
 }
 }
@@ -314,7 +314,7 @@ height: 100% !important;
 
 .horsediv .mainline {
     background-color: rgba(255, 255, 255, 0.5) !important;
-    border-radius: 15px !important;
+    border-radius: var(--px767) !important;
     padding: 5px !important;
     box-shadow: 0px 0px var(--px104) white !important; 
 }
@@ -410,7 +410,7 @@ table.tablebg.tableshadow:not(.col-12 .active .tablebg), .secondary.tableshadow:
 background-color:rgba(0, 0, 0, 0.25); border-radius: 0px !important; box-shadow: 0px 0px 0px 5px rgba(0, 0, 0, 0.25); width:100% !important; border: 5px solid grey !important;
 .divheader2 { color: white; font-family: var(--headerfont); } 
 .tertiary { background: transparent; } 
-.secondary:not(.set) { margin-top: 15px; } }
+.secondary:not(.set) { margin-top: var(--px767); } }
 
 .tableshadow:not(.primary):has(.main) { padding-top: 150px !important; 
 .main:not(.thechat .main) {
@@ -449,7 +449,7 @@ textarea.iclass, input.iclass, select.iclass, span.select2-selection__rendered, 
 background: black; color: white !important; border-radius: 0px; border: 2px solid grey;
 }
 
-div.tablebg:has(#adorn) .secondary { margin-top: 15px !important; }
+div.tablebg:has(#adorn) .secondary { margin-top: var(--px767) !important; }
 
 .tablebg.tableshadow:not(:has(.storediv)), #High, #Hall, #Best, .matchscroll { .brownbox2, .secondary:not(.showlg):not(.set):not(.bl3):not(center:has([class*=news]) .bl2.br2) {
 height: var(--px627);
