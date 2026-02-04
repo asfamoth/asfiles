@@ -1,4 +1,5 @@
 /*Made by Asfamoth #385785. Do not attempt to copy, replicate, decompose, modify, or otherwise extract from this code. Doing so is theft.*/
+/*Class names and element IDs are property of Horse Eden Eventing.*/
 
 
 @import url(https://asfamoth.github.io/asfiles/SkyrimPalette/skyrim.css);
@@ -177,7 +178,7 @@ content: var(--applebannerurl); width: 100% !important;  filter: hue-rotate(225d
 }
 
 .col-11 hr, #manage hr, .mainlineblack hr {
-background-color: white; box-shadow: 0px 0px 10px white; border-color: white !important; opacity: 1; height: 1px; border-top: none !important;
+background-color: white; box-shadow: 0px 0px var(--px104) white; border-color: white !important; opacity: 1; height: 1px; border-top: none !important;
 }
 
 #showbarns td td:has(img) { display: none; }
@@ -278,7 +279,7 @@ background-color: rgba(0,0,0,0.0) !important;
 background: none; border: none;
 }
 .lightgreybox {
-background-color: rgba(var(--darkbgrgb), 0.5); box-shadow: 0px 0px 10px var(--darkbg);
+background-color: rgba(var(--darkbgrgb), 0.5); box-shadow: 0px 0px var(--px104) var(--darkbg);
 }
 
 .quests1 {
@@ -293,10 +294,10 @@ background: transparent; border: 5px solid grey; border-radius: 0px;
 
 .equipdiv {
 .mainlineblack.secondary {
-border: none !important; background-color: rgba(var(--darkbgrgb), 0.5); box-shadow: 0px 0px 10px var(--darkbg);
+border: none !important; background-color: rgba(var(--darkbgrgb), 0.5); box-shadow: 0px 0px var(--px104) var(--darkbg);
 }
 .equipscroll {
-padding: 5px !important; border: none !important; background-color: rgba(var(--darkbgrgb), 0.5) !important; box-shadow: 0px 0px 10px var(--darkbg);
+padding: 5px !important; border: none !important; background-color: rgba(var(--darkbgrgb), 0.5) !important; box-shadow: 0px 0px var(--px104) var(--darkbg);
 form div {
 font-size: 15px !important;
 }
@@ -304,7 +305,7 @@ font-size: 15px !important;
 }
 
 [name=reportform] hr, .container-fluid.p-2 hr {
-background-color: white; box-shadow: 0px 0px 10px white; border-color: white; opacity: 1;
+background-color: white; box-shadow: 0px 0px var(--px104) white; border-color: white; opacity: 1;
 }
 
 .watcherscroll {
@@ -315,7 +316,7 @@ height: 100% !important;
     background-color: rgba(255, 255, 255, 0.5) !important;
     border-radius: 15px !important;
     padding: 5px !important;
-    box-shadow: 0px 0px 10px white !important; 
+    box-shadow: 0px 0px var(--px104) white !important; 
 }
 
 .shoutscrollsmall {
@@ -474,7 +475,7 @@ border-radius: 0px; margin-top: -25px;
 }
 
 .validmsg:has(a) {
-background: transparent; border: 2px solid grey; padding: 10px; border-radius: 0px;
+background: transparent; border: 2px solid grey; padding: var(--px104); border-radius: 0px;
 }
 
 .mainlineblacksmall .secondary.tableshadow {
@@ -492,10 +493,10 @@ background-color:rgba(0,0,0,0.0);
 
 .genericbox.quatro, .mainlineblack.genericbox.quatro {
 background-color: rgba(var(--lightbgrgb), 0.5);
-    box-shadow: 0px 0px 10px var(--lightbg);
+    box-shadow: 0px 0px var(--px104) var(--lightbg);
 }
 .genericbox.secondary:not(.mainlineblack.genericbox.secondary) {
-background-color: rgba(var(--darkbgrgb), 0.5); box-shadow: 0px 0px 10px var(--darkbg);
+background-color: rgba(var(--darkbgrgb), 0.5); box-shadow: 0px 0px var(--px104) var(--darkbg);
 }
 
 .headline, .sidebar.h4, .header td:not(td:has(table) td) { 
@@ -626,7 +627,7 @@ height: 85vh; max-height: 750px;
 } 
 
 .tablebg {
-width: 85% !important; margin-left: 8% !important; margin-top: 0px !important; border: 0px solid #000 !important; background-color: rgba(255,255,255,0.5); box-shadow: 0px 0px 10px white;
+width: 85% !important; margin-left: 8% !important; margin-top: 0px !important; border: 0px solid #000 !important; background-color: rgba(255,255,255,0.5); box-shadow: 0px 0px var(--px104) white;
 table tbody tr td div {
 display: block !important; 
 }
@@ -712,7 +713,7 @@ font-family: var(--mainfont); }
 
 
 .navbar-nav {
-	font-family:var(--headerfont) !important; background-color:rgba(0, 0, 0, 0.5); position: fixed; top:0; left:var(--px627); z-index: 50; flex-direction: column !important; width: 300px !important; justify-content: start !important; height: 100%; padding-right: 100px; padding-top: 100px; padding-left: 10px; clip-path: polygon(-10px 0px, 270px 0px, 270px 5000px, 305px 5000px, 310px 5000px, 310px 0px, 660px 0px, 660px 5000px, 0px 5000px); box-shadow: 0px 0px 0px 5px rgba(0, 0, 0, 0.25);
+	font-family:var(--headerfont) !important; background-color:rgba(0, 0, 0, 0.5); position: fixed; top:0; left:var(--px627); z-index: 50; flex-direction: column !important; width: 300px !important; justify-content: start !important; height: 100%; padding-right: 100px; padding-top: 100px; padding-left: var(--px104); clip-path: polygon(-10px 0px, 270px 0px, 270px 5000px, 305px 5000px, 310px 5000px, 310px 0px, 660px 0px, 660px 5000px, 0px 5000px); box-shadow: 0px 0px 0px 5px rgba(0, 0, 0, 0.25);
   border-left: 5px solid gray;
 }
 
@@ -786,7 +787,7 @@ top: 0px;
   border-left: 5px solid gray;
   outline: 5px solid rgba(0, 0, 0, 0.5);
   padding-top: 100px;
-  padding-left: 10px;
+  padding-left: var(--px104);
 }
 
 .row.justify-content-between.statusbar {
