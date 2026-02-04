@@ -40,6 +40,8 @@ html {
 scrollbar-width: none;
 }
 
+.adsbygoogle { display: none !important; }
+
 body:not(.container-lg) .genericbox3.tableshadow.primary {
 border-left: var(--px920) solid grey !important; border-right: var(--px920) solid grey !important; background-color: rgba(0, 0, 0, 0.5) !important; border-radius: var(--px352) !important; outline: var(--px920) solid rgba(0, 0, 0, 0.5); margin-top: var(--px362); margin-left: 150px; margin-right: -150px; padding: var(--px352); height: calc(100% + 300px); min-height: 100vh;
 }
