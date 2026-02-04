@@ -135,7 +135,7 @@ filter: sepia(1) saturate(1.5);
 .col-11:has(a[href*=shophome]) {
 .genericbox.secondary { 
 background: transparent !important; box-shadow: none !important; border-radius: var(--px352); border: var(--px920) solid grey;
-tr td, tr table {
+tr td, tr table:not(.modal-content table) {
 background: transparent !important; box-shadow: none !important; border: 2px solid grey;
 }
 }
