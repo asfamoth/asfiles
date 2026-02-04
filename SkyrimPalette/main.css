@@ -41,7 +41,7 @@ scrollbar-width: none;
 }
 
 body:not(.container-lg) .genericbox3.tableshadow.primary {
-border-left: 5px solid grey !important; border-right: 5px solid grey !important; background-color: rgba(0, 0, 0, 0.5) !important; border-radius: 0px !important; outline: 5px solid rgba(0, 0, 0, 0.5); margin-top: -25px; margin-left: 150px; margin-right: -150px; padding: 0px; height: calc(100% + 300px); min-height: 100vh;
+border-left: 5px solid grey !important; border-right: 5px solid grey !important; background-color: rgba(0, 0, 0, 0.5) !important; border-radius: var(--px352) !important; outline: 5px solid rgba(0, 0, 0, 0.5); margin-top: -25px; margin-left: 150px; margin-right: -150px; padding: var(--px352); height: calc(100% + 300px); min-height: 100vh;
 }
 
 img.fade.show[src*=banners] {
@@ -65,7 +65,7 @@ cursor: var(--cursor), auto !important;
 }
 
 body center:has(.footercolor) {
-position: absolute; right: 100px; width: 50%; height: 0px; margin-top: var(--px842);
+position: absolute; right: 100px; width: 50%; height: var(--px352); margin-top: var(--px842);
 }
 
 .row.justify-content-center {
@@ -79,7 +79,7 @@ body:has(.container-lg) { img[src*=Logo] { display: none; }
 .mainlineblack { color: silver; font-family: var(--headerfont); font-size: 25px !important; font-weight: initial !important; }
 .mainline a { color: white !important; font-family: var(--mainfont) !important; }
 .genericbox3 {
-clip-path: polygon(-5% -5%, 32px -5%, 32px 0%, calc(100% - 32px) 0%, calc(100% - 32px) -5%, 105% -5%, 105% 32px, 100% 32px, 100% calc(100% - 32px), 105% calc(100% - 32px), 105% 105%, calc(100% - 32px) 105%, calc(100% - 32px) 100%, 32px 100%, 32px 105%, -5% 105%, -5% calc(100% - 32px), 0% calc(100% - 32px), 0% 32px, -5% 32px); border-image: url(https://i.ibb.co/nsGgGvs8/Skyrim-frame-full-sg.png) 50 round !important; border: var(--px627) solid transparent; background: rgba(0, 0, 0, 0.5); box-shadow: 0px 0px 0px 5px rgba(0, 0, 0, 0.5); border-radius: 0px !important;
+clip-path: polygon(-5% -5%, 32px -5%, 32px 0%, calc(100% - 32px) 0%, calc(100% - 32px) -5%, 105% -5%, 105% 32px, 100% 32px, 100% calc(100% - 32px), 105% calc(100% - 32px), 105% 105%, calc(100% - 32px) 105%, calc(100% - 32px) 100%, 32px 100%, 32px 105%, -5% 105%, -5% calc(100% - 32px), 0% calc(100% - 32px), 0% 32px, -5% 32px); border-image: url(https://i.ibb.co/nsGgGvs8/Skyrim-frame-full-sg.png) 50 round !important; border: var(--px627) solid transparent; background: rgba(0, 0, 0, 0.5); box-shadow: var(--px352) var(--px352) var(--px352) 5px rgba(0, 0, 0, 0.5); border-radius: var(--px352) !important;
 }
 }
 }
@@ -99,7 +99,7 @@ background: transparent; border: none;
 .carousel-item.active {
 margin-top: 20px;
 .tablebg {
-background: transparent; border-radius: 0px !important; border: 5px solid grey;
+background: transparent; border-radius: var(--px352) !important; border: 5px solid grey;
 }
 }
 
@@ -121,7 +121,7 @@ background: transparent;
 
 a[onclick*=showStore] {
 img {
-    clip-path: inset(7% 7% round 0px);
+    clip-path: inset(7% 7% round var(--px352));
     filter: saturate(0);
 }
 }
@@ -132,7 +132,7 @@ filter: sepia(1) saturate(1.5);
 
 .col-11:has(a[href*=shophome]) {
 .genericbox.secondary { 
-background: transparent !important; box-shadow: none !important; border-radius: 0px; border: 5px solid grey;
+background: transparent !important; box-shadow: none !important; border-radius: var(--px352); border: 5px solid grey;
 tr td, tr table {
 background: transparent !important; box-shadow: none !important; border: 2px solid grey;
 }
@@ -144,7 +144,7 @@ background-color: transparent;
 }
 
 div:has(.upround) {
-border: none !important; border-radius: 0px !important;
+border: none !important; border-radius: var(--px352) !important;
 }
 div:has(#bottompicture) {
 height 100%;
@@ -158,7 +158,7 @@ filter: saturate(0) contrast(1.5);
 
 
 td:has(table tbody tr td .expheightsm) {
-border-radius; 0px !important;
+border-radius: var(--px352) !important;
 }
 
 .mainlineblack td:has(.expheightsm) {
