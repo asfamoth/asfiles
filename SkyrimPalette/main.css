@@ -21,8 +21,8 @@ font-display: swap; font-weight: normal; font-style: normal;}
 --lightbgrgb: 141, 180, 233; 
 --mainbg: #5fa0d2;
 --mainbgrgb: 95, 160, 210;
---headerfont: "Futura";
---mainfont: "FuturaLight"; 
+--headerfont: 'Futura';
+--mainfont: 'FuturaLight'; 
 --credits: url();
 --wallpaper: url('https://i.ibb.co/NdL8qq22/snowy-skyrim-by-thornspine-d866kul.jpg');
 --applebannerurl: url(https://8upload.com/image/13c2bc5af46f2b33/AdobeStock_558848116.png);
