@@ -8,7 +8,7 @@
 @import url(https://fonts.googleapis.com/css2?family=Iceland);
 @import url(https://fonts.googleapis.com/css2?family=Grenze);
 @font-face {font-family: 'Futura'; 
-src: url('https://asfamoth.github.io/asfiles/SkyrimPalette/futura-condensed-pt-medium.woff2') format('woff2');
+src: url('futura-condensed-pt-medium.woff2') format('woff2');
 font-display: swap; font-weight: normal; font-style: normal;}
 @font-face {font-family: 'FuturaLight'; 
 src: url('https://asfamoth.github.io/asfiles/SkyrimPalette/futura-pt-light.woff2') format('woff2');
