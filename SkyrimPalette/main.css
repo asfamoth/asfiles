@@ -7,11 +7,11 @@
 @import url(https://fonts.googleapis.com/css2?family=Metal+Mania);
 @import url(https://fonts.googleapis.com/css2?family=Iceland);
 @import url(https://fonts.googleapis.com/css2?family=Grenze);
-@font-face {font-family: "Futura"; 
-src: url("https://asfamoth.github.io/asfiles/SkyrimPalette/futura-condensed-pt-medium.woff2") format(woff2);
+@font-face {font-family: 'Futura'; 
+src: url('https://asfamoth.github.io/asfiles/SkyrimPalette/futura-condensed-pt-medium.woff2') format('woff2');
 font-display: swap; font-weight: normal; font-style: normal;}
-@font-face {font-family: "FuturaLight"; 
-src: url("https://asfamoth.github.io/asfiles/SkyrimPalette/futura-pt-light.woff2") format(woff2);
+@font-face {font-family: 'FuturaLight'; 
+src: url('https://asfamoth.github.io/asfiles/SkyrimPalette/futura-pt-light.woff2') format('woff2');
 font-display: swap; font-weight: normal; font-style: normal;}
 
 :root {
@@ -24,7 +24,7 @@ font-display: swap; font-weight: normal; font-style: normal;}
 --headerfont: "Futura";
 --mainfont: "FuturaLight"; 
 --credits: url();
---wallpaper: url("https://i.ibb.co/NdL8qq22/snowy-skyrim-by-thornspine-d866kul.jpg");
+--wallpaper: url('https://i.ibb.co/NdL8qq22/snowy-skyrim-by-thornspine-d866kul.jpg');
 --applebannerurl: url(https://8upload.com/image/13c2bc5af46f2b33/AdobeStock_558848116.png);
 --mailpic: url(https://8upload.com/image/6985e5d34bac084d/AdobeStock_544571597.png);
 --headerimg:url();
