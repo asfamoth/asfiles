@@ -715,7 +715,7 @@ font-family: var(--mainfont); }
 
 
 .navbar-nav {
-	font-family:var(--headerfont) !important; background-color:rgba(0, 0, 0, 0.5); position: fixed; top:0; left:var(--px627); z-index: 50; flex-direction: column !important; width: 300px !important; justify-content: start !important; height: 100%; padding-right: var(--px909); padding-top: var(--px909); padding-left: var(--px104); clip-path: polygon(-10px 0px, 270px 0px, 270px 5000px, 305px 5000px, 310px 5000px, 310px 0px, 660px 0px, 660px 5000px, 0px 5000px); box-shadow: 0px 0px 0px var(--px920) rgba(0, 0, 0, 0.25);
+	font-family:var(--headerfont), sans-serif !important; background-color:rgba(0, 0, 0, 0.5); position: fixed; top:0; left:var(--px627); z-index: 50; flex-direction: column !important; width: 300px !important; justify-content: start !important; height: 100%; padding-right: var(--px909); padding-top: var(--px909); padding-left: var(--px104); clip-path: polygon(-10px 0px, 270px 0px, 270px 5000px, 305px 5000px, 310px 5000px, 310px 0px, 660px 0px, 660px 5000px, 0px 5000px); box-shadow: 0px 0px 0px var(--px920) rgba(0, 0, 0, 0.25);
   border-left: var(--px920) solid gray;
 }
 
