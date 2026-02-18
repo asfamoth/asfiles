@@ -33,7 +33,7 @@ font-display: swap; font-weight: normal; font-style: normal;}
 #shout center { margin-bottom: var(--px908); }
 
 img.fade.show[src*=banners] {
-content: url("https://i.ibb.co/H3q7B26/asfamothbannerskyrim.png") !important; border-radius: var(--px389);
+content: url("https://random-header.asfamoth.workers.dev") !important; border-radius: var(--px389);
 }
 
 html {
