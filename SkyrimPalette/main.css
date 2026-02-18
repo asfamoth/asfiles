@@ -33,17 +33,7 @@ font-display: swap; font-weight: normal; font-style: normal;}
 #shout center { margin-bottom: var(--px908); }
 
 img.fade.show[src*=banners] {
-content: url("https://random-header.asfamoth.workers.dev") !important; border-radius: 0px; animation: choose 0.01s steps(1) forwards;
-}
-img.fade.show[src*=banners]::before {
-content: url("https://random-header.asfamoth.workers.dev/?r=1") !important; border-radius: 0px; animation: choose 0.02s steps(1) forwards;
-}
-
-@keyframes choose {
-0% { opacity: 0; }
-33% { opacity: 1; }
-66% { opacity: 0; }
-100% { opacity: 0; }
+content: url("https://random-header.asfamoth.workers.dev") !important; border-radius: 0px;
 }
 
 html {
