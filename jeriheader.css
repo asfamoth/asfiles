@@ -1,6 +1,8 @@
 /*Header changing on page load created by Asfamoth #385785 by request of Jericho #9947. Do not attempt to copy, replicate, decompose, modify, or otherwise extract from this code. Doing so is theft.*/
 /*Class names and element IDs are property of Horse Eden Eventing.*/
 
+.w-100 { opacity: 1; }
+
 .d-none:has(img[src*=HEE_Logo]) {
 padding: 0px;
 }
