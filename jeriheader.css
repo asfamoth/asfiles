@@ -1,0 +1,5 @@
+.col-md-6:has(img[src*=HEE_Logo]) { 
+width: 100vw; height: 20vh; z-index: -1;
+img[src*=HEE_Logo] {
+opacity: 1 !important; max-height: 500px !important; content: url("https://jericho-header.asfamoth.workers.dev");
+}
