@@ -1,5 +1,9 @@
+.d-none:has(img[src*=HEE_Logo]) {
+padding: 0px;
+}
+
 .col-md-6:has(img[src*=HEE_Logo]) { 
-width: 100vw; height: 20vh; z-index: -1;
+width: 100%; z-index: -1; padding: 0px;
 img[src*=HEE_Logo] {
-opacity: 1 !important; max-height: 500px !important; content: url("https://jericho-header.asfamoth.workers.dev");
+opacity: 1 !important; max-height: 520px !important; content: url("https://jericho-header.asfamoth.workers.dev"); display: block !important; width: 100% !important; height: initial !important; mask-image: none !important; object-fit: cover;
 }
