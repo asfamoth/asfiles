@@ -3,6 +3,6 @@
 
 .container-fluid:has(img[src*=HEE_Logo]) { padding: 0px;
   .col-md-6:has(img[src*=HEE_Logo]) { 
-z-index: -1; max-height: 520px !important; background-image: url("https://jericho-header.asfamoth.workers.dev") !important; object-fit: cover; filter: brightness(0.25) !important; width: 100%;
+z-index: -1; height: 520px !important; background-image: url("https://jericho-header.asfamoth.workers.dev") !important; object-fit: cover; filter: brightness(0.25) !important; width: 100%;
 }
 }
