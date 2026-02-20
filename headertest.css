@@ -3,5 +3,5 @@ content: url("https://random-header.asfamoth.workers.dev") !important; border-ra
 }
 
 .col-md-6:has(img[src*=HEE_Logo]) {
-background-image: url("https://jericho-header.asfamoth.workers.dev") !important; height: 150px !important;
+background-image: url("https://jericho-header.asfamoth.workers.dev") !important; height: 150px !important; filter: brightness(0.25);
 }
