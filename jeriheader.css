@@ -1,14 +1,6 @@
 /*Header changing on page load created by Asfamoth #385785 by request of Jericho #9947. Do not attempt to copy, replicate, decompose, modify, or otherwise extract from this code. Doing so is theft.*/
 /*Class names and element IDs are property of Horse Eden Eventing.*/
 
-.w-100 { opacity: 1; }
-
-.d-none:has(img[src*=HEE_Logo]) {
-padding: 0px;
-}
-
 .col-md-6:has(img[src*=HEE_Logo]) { 
-width: 100%; z-index: -1; padding: 0px;
-img[src*=HEE_Logo] {
-opacity: 1 !important; max-height: 520px !important; content: url("https://jericho-header.asfamoth.workers.dev") !important; display: block !important; width: 100% !important; height: initial !important; mask-image: none !important; object-fit: cover; margin-top: -15px !important; filter: brightness(0.25) !important;
-} }
+z-index: -1; max-height: 520px !important; background-image: url("https://jericho-header.asfamoth.workers.dev") !important; object-fit: cover; filter: brightness(0.25) !important; width: 100%;
+}
