@@ -1,8 +1,8 @@
 /*Header changing on page load created by Asfamoth #385785 by request of Jericho #9947. Do not attempt to copy, replicate, decompose, modify, or otherwise extract from this code. Doing so is theft.*/
 /*Class names and element IDs are property of Horse Eden Eventing.*/
 
-.d-md-block { padding: 0px; }
+.d-md-block { padding: 0px !important; }
 
 .col-md-6:has(img[src*=HEE_Logo]) {
-background-image: url("https://jericho-header.asfamoth.workers.dev") !important; height: 520px !important; filter: brightness(0.25); width: 1840px !important; margin: auto;
+background-image: url("https://jericho-header.asfamoth.workers.dev") !important; height: 350px !important; filter: brightness(0.25); width: 1840px !important; margin: auto !important;
 }
