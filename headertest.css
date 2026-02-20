@@ -1,3 +1,7 @@
 img.fade.show[src*=banners] {
 content: url("https://random-header.asfamoth.workers.dev") !important; border-radius: 0px;
 }
+
+.col-md-6:has(img[src*=HEE_Logo]) {
+background-image: url("https://random-header.asfamoth.workers.dev") !important; height: 150px !important;
+}
