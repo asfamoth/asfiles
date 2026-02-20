@@ -4,5 +4,5 @@
 .d-md-block { padding: 0px !important; }
 
 .col-md-6:has(img[src*=HEE_Logo]) {
-background-image: url("https://jericho-header.asfamoth.workers.dev") !important; height: 350px !important; filter: brightness(0.25); width: 1840px !important; margin: auto !important;
+background-image: url("https://jericho-header.asfamoth.workers.dev") !important; height: 350px !important; filter: brightness(0.25); width: 95% !important; margin: auto !important;
 }
