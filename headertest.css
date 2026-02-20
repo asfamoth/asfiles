@@ -1,0 +1,3 @@
+img.fade.show[src*=banners] {
+content: url("https://random-header.asfamoth.workers.dev") !important; border-radius: 0px;
+}
